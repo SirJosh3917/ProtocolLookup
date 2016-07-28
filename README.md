@@ -46,7 +46,7 @@ Get a 'Recieve Message', replacing `init` with whatever `List<ProtocolMessage>` 
 ```
 bool BooleanMessageFound;
 string StringMessageDescription;
-List<ProtocolMessage> Messages = ProtocolLookup.GetRecieveMessage("init", out BooleanMessageFound, out StringMessageDescription);
+List<ProtocolMessage> Messages = ProtocolReader.GetRecievedMessage("init", out BooleanMessageFound, out StringMessageDescription);
 ```
 
 Get a 'Send Message', replacing `m` with whatever `List<ProtocolMessage>` you want to recieve:
@@ -54,7 +54,7 @@ Get a 'Send Message', replacing `m` with whatever `List<ProtocolMessage>` you wa
 ```
 bool BooleanMessageFound;
 string StringMessageDescription;
-List<ProtocolMessage> Messages = ProtocolLookup.GetSendMessage("m", out BooleanMessageFound, out StringMessageDescription);
+List<ProtocolMessage> Messages = ProtocolReader.GetSendMessage("m", out BooleanMessageFound, out StringMessageDescription);
 ```
 
 And heres an example of using the `BooleanMessageFound` and `StringMessageDescription`:
