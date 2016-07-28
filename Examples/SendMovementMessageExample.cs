@@ -22,9 +22,9 @@ namespace SendMovementMessageExample
 
 		static void Main(string[] args)
 		{
-			string Email = "robot@ee.com";
-			string Password = "ee";
-			string WorldID = "PW4pVxLOk6cEI";
+			string Email = "";
+			string Password = "";
+			string WorldID = "";
 			int X = 16;
 			int Y = 16;
 
