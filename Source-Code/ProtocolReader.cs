@@ -18,6 +18,7 @@ namespace ProtocolLookup
 		public static string[] GetProtocol()
 		{
 			WebClient downloadProtocol = new WebClient();
+			downloadProtocol.Proxy = null;
 			downloadProtocol.DownloadFile("https://raw.githubusercontent.com/Tunous/EverybodyEditsProtocol/master/README.md", "protocol.txt");
 
 			string[] fileData = File.ReadAllLines("protocol.txt");
