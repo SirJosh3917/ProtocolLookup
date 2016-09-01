@@ -13,7 +13,7 @@ Nuget:
 
 Mediafire:
 
-`https://www.mediafire.com/?z18sbdes5rn8gbq`
+`http://www.mediafire.com/download/z18sbdes5rn8gbq/ProtocolLookup.zip`
 
 # How do I use it?
 Using it is very simple.
